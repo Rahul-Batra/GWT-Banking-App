@@ -3,7 +3,7 @@
   <!-- Servlets -->
   <servlet>
 		<servlet-name>dataservercall</servlet-name>
-		<servlet-class>com.ma.BMS.server.DataServiceImpl</servlet-class>
+		<servlet-class>com.rahul.BMS.server.DataServiceImpl</servlet-class>
 	</servlet>
 
   
@@ -16,7 +16,7 @@
 <servlet>
       <display-name>GetPdf</display-name>
     <servlet-name>GetPdf</servlet-name>
-    <servlet-class>com.ma.BMS.server.GetPdf</servlet-class>
+    <servlet-class>com.rahul.BMS.server.GetPdf</servlet-class>
   </servlet>
  
 <servlet-mapping>

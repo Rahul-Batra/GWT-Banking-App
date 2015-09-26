@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:a="urn:import:java.awt">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+		.panel {
+	       margin-top:50px;
+			width: 290px;
+			height: 55px;
+			margin-left: 200px;
+			
+		}
+		
+		     	
+	    
+	</ui:style>
+	<g:FlowPanel styleName="{style.panel}" >
+	<g:HTMLPanel>
+
+		<div> <b> Username :</b> <g:TextBox ui:field="name"></g:TextBox>
+<g:Label ui:field="uservalid" styleName="(style.valid)"></g:Label>
+
+	</div>
+		
+		<div> <b>Password :</b>&nbsp; <g:PasswordTextBox ui:field="password">
+		</g:PasswordTextBox>
+		
+		</div>
+		<br/> 
+		<div> <b>Role :</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<g:ListBox ui:field="role"> 
+		<g:item value='1'> System User </g:item> 
+		<g:item value='2'> Accountant </g:item> 
+		<g:item value='3'> Analyst </g:item> 
+		</g:ListBox>
+	</div>	
+	
+		<br/><br/>
+		<div> <g:Button ui:field="add">add</g:Button>&nbsp;
+		<g:Button ui:field="clear">Clear</g:Button></div>		
+
+	</g:HTMLPanel>
+</g:FlowPanel>
+</ui:UiBinder> 
