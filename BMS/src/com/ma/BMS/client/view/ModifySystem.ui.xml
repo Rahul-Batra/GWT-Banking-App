@@ -1,0 +1,33 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+
+.panel {
+			width: 250px;
+			height: 200px;
+		}
+	</ui:style>
+<g:FlowPanel styleName="{style.panel}" >
+	<g:HTMLPanel>
+		<div>Enter the new name: </div>
+		<div><g:TextBox ui:field="modifyname"></g:TextBox></div>
+		<div>Enter the new Password: </div>
+		<div><g:PasswordTextBox ui:field="modifypswd"></g:PasswordTextBox></div>
+		 <br/>
+	<div>Enter the new role:
+	    <g:ListBox ui:field="modifyrole"> 
+		<g:item value='1'> System User </g:item> 
+		<g:item value='2'> Customer </g:item> 
+		<g:item value='3'> Analyst </g:item> 
+		</g:ListBox>
+    	 </div>
+		<br/>
+		<div align="center">
+				<g:Button ui:field="submitbtn">Modify</g:Button>
+			    <g:Button ui:field="resetbtn">Reset</g:Button>
+			</div>
+			<g:Button ui:field="close"></g:Button>
+	</g:HTMLPanel>
+	</g:FlowPanel>
+</ui:UiBinder> 

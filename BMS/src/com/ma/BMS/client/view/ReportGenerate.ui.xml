@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.panel {
+		margin-top:20px;
+		width: 600px;
+		height: 55px;
+		margin-left: 50px;
+		line-height: 40px;
+		}
+		.reprtstl{
+				font-size: xx-large;
+	
+				}
+		
+	</ui:style>
+	<g:FlowPanel styleName="{style.panel}">
+		<g:HTMLPanel>
+		<g:FlexTable ui:field="reporttble"></g:FlexTable>
+			<div><g:Label ui:field="acclabel">Account no. for which report to be generate:</g:Label>
+				<g:TextBox ui:field="acc"></g:TextBox><g:Button ui:field="submitbttn" >Generate</g:Button>
+			</div>
+			
+			<div align="center"><g:Label ui:field="rprt" styleName="{style.reprtstl}">Report</g:Label></div>
+			<div><g:Label ui:field="actno">Account No.:</g:Label><g:Label ui:field="acntnolbl"></g:Label></div>
+			<div><g:Label ui:field="actttype">Type of Account:</g:Label><g:Label ui:field="actttypelbl"></g:Label></div>
+			<div><g:Label ui:field="actttypehldr">Type of Account Holders:</g:Label>
+			<g:Label ui:field="actttypehldrlbl"></g:Label></div>
+			<div><g:Label ui:field="pname">Primary Customer Name :</g:Label>
+			<g:Label ui:field="pnamelbl"></g:Label></div>
+			<div><g:Label ui:field="pdetails">Personal Details :</g:Label></div>
+			<div><g:Label ui:field="padrr">Address :</g:Label>
+			<g:Label ui:field="padrrlbl"></g:Label></div>
+			<div><g:Label ui:field="pmobile">Mobile No. :</g:Label>
+			<g:Label ui:field="pmobilelbl"></g:Label></div>
+			<div><g:Label ui:field="pemail">Email Id :</g:Label>
+			<g:Label ui:field="pemaillbl"></g:Label></div>
+			<div><g:Label ui:field="ppan">Pan Number :</g:Label>
+			<g:Label ui:field="ppanlbl"></g:Label></div>
+			<div><g:Label ui:field="sname1">Secondary Customer Names :</g:Label>
+			<g:Label ui:field="snamelbl1"></g:Label>
+			<g:Label ui:field="snamelbl2"></g:Label>
+			<g:Label ui:field="snamelbl3"></g:Label>
+			</div>
+				<div align="center">	
+				<g:Button ui:field="downloadbttn">Download</g:Button>
+				<g:Button ui:field="printbttn">Print</g:Button>
+				<g:Button ui:field="resetbttn">Reset</g:Button>
+			</div>	
+		</g:HTMLPanel>
+	</g:FlowPanel>
+</ui:UiBinder> 

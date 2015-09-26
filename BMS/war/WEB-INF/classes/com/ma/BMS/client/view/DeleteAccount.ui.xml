@@ -1,0 +1,23 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.panel {
+			margin-top:50px;
+			width: 200px;
+			height: 55px;
+			margin-left: 200px;
+		}
+	</ui:style>
+<g:FlowPanel styleName="{style.panel}" >
+	<g:HTMLPanel>
+		<div>Enter the account no. whose record to be Delete :</div>
+		<div><g:TextBox ui:field="delaccnt"></g:TextBox></div>
+		<div align="center">
+				<g:Button ui:field="delaccntt">Delete</g:Button>
+			    <g:Button ui:field="resetacnt">Reset</g:Button>
+			    
+			</div>
+	</g:HTMLPanel>
+	</g:FlowPanel>
+</ui:UiBinder> 

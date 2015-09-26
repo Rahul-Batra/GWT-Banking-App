@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.panel {
+		margin-top:50px;
+		width: 200px;
+		height: 55px;
+		margin-left: 200px;
+		}
+	</ui:style>
+	<g:FlowPanel styleName="{style.panel}">
+		<g:HTMLPanel>
+			<div>Enter the name of customer whose record to be Search :</div>
+			<div>
+				<g:TextBox ui:field="searchcust"></g:TextBox>
+			</div>
+			<div align="center">
+				<g:Button ui:field="searchcustt">Search</g:Button>
+				<g:Button ui:field="resetcustt">Reset</g:Button>
+
+			</div>
+			<div class="right">
+				<g:FlexTable ui:field="table" styleName="(style.flex)" borderWidth="4" visible="false"></g:FlexTable></div>
+		</g:HTMLPanel>
+	</g:FlowPanel>
+</ui:UiBinder> 

@@ -1,0 +1,2 @@
+serviceClass: com.ma.BMS.client.DataService
+path: 413E46C9CAC6420394D6E260D520A3AF.gwt.rpc

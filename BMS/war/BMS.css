@@ -1,0 +1,180 @@
+/** Add css rules here for your application. */
+
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  color: yellow;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.body1 { 
+     background-color: #D7DCE2;
+} 
+
+.backstyle { 
+  background-image: url("/images/front.jpg");
+  
+  border: 1px ;
+} 
+
+.vertical
+       {
+             border-left:thick solid gray;
+             height: 510px;
+             margin-left: 200px;
+             margin-top:-12px;
+             position: static;
+      }
+
+#left
+{
+	margin-left:-200px;
+	}
+
+
+.show
+{
+	margin-left:300px;
+	margin-top:-400px;
+}
+
+a:LINK {
+	color:blue;
+}
+
+.home,.about,.contact,.setting,.logout,.account
+{
+	cursor: pointer;
+}
+
+
+.invalid
+		{
+	     display: block;
+	      color:red;
+     	}
+     	
+.valid,.modify,.delete
+     	{
+	          display:none;
+	    }
+
+.validd
+{
+	display:block;
+}
+
+.btns
+{
+	margin-left:650px;
+	margin-top:-50px;
+
+}
+
+.tabl
+          {
+            margin-left:200px;
+            margin-top:20px; 
+          }
+          
+.vmodify
+{
+ background: url("images/edit.png") 0px 0px no-repeat;
+ display:block;
+}          
+
+.vdelete
+{
+ background: url("images/delete.png") 0px 0px no-repeat;
+ display:block;
+}          
+
+
+.clos
+{
+	position:relative;
+	display:block;
+	margin:-190px 240px -200px;
+}
+
+.refresh
+{
+	margin-left:200px;
+}
+
+.search
+{
+	margin-left:200px;
+    margin-top:60px; 
+}
+
+
+.snvisible,.cnvisible,.anvisible,.rnvisible,.tnvisible,.glasspanel
+{
+display:none;
+opacity:0.4;
+filter:alpha(opacity=10);
+background-color: white;
+height:expression(parentElement.scrollHeight + 'px');
+width:90%;
+}
+
+.hand
+{
+	cursor: pointer;
+	
+}
+
+.newcolor
+{
+	background-color: #dd2020;
+}
+
+#image
+{
+	background-image: url("/images/b4.jpg");
+	width:195px;
+	height:510px;
+}
+
+#rightPanel
+{
+	background-image: url("/images/b3.jpg") ;
+	background-repeat:no-repeat;
+	
+	width:100%;
+	height:510px;
+}
+
+
+
+ .flex
+        {
+             margin-left:-100px;
+        }
+   
